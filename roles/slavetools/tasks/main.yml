@@ -1,0 +1,25 @@
+---
+# tasks file for Java
+- name: Install Java
+  include_tasks: install-java.yml
+# tasks file for git
+- name: Install Git
+  include_tasks: install-git.yml
+# task file for chromium browser
+- name: Install Chromium Browser
+  include_tasks: install-chromiumbrowser.yml
+# task file for dependencies
+- name: Install dependencies
+  include_tasks: install-dependencies.yml
+#task file for google chrome
+- name: Install google chrome
+  include_tasks: install-googlechrome.yml
+# task file for chromedriver
+- name: Copy chromedriver
+  copy:
+    src: chromedriver
+    dest: /usr/bin/chromedriver
+    owner: root
+    group: root
+    mode: 0777
+

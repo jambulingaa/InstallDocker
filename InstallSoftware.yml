@@ -1,0 +1,5 @@
+- hosts: qa
+  become: yes
+  roles:
+    - slavetools
+

@@ -10,13 +10,22 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
+:wq!
+|2,0,1596342948,,"wq!"
+:q!
+|2,0,1596296235,,"q!"
+:q
+|2,0,1595682478,,"q"
 :wq
 |2,0,1593626631,,"wq"
-:wq!
-|2,0,1593626221,,"wq!"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1596296226,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -25,34 +34,382 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	CHAR	0
+	#
+|3,0,0,0,1,0,1596296226,"#"
+""1	LINE	0
+	## db-[99:101]-node.example.com
+|3,1,1,1,1,0,1596296305,"## db-[99:101]-node.example.com"
+"2	LINE	0
+	
+|3,0,2,1,1,0,1596296304,""
+"3	LINE	0
+	# leading 0s:
+|3,0,3,1,1,0,1596296303,"# leading 0s:"
+"4	LINE	0
+	# Here's another example of host ranges, this time there are no
+|3,0,4,1,1,0,1596296302,"# Here's another example of host ranges, this time there are no"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1596296301,""
+"6	LINE	0
+	## 10.25.1.57
+|3,0,6,1,1,0,1596296300,"## 10.25.1.57"
+"7	LINE	0
+	## 10.25.1.56
+|3,0,7,1,1,0,1596296300,"## 10.25.1.56"
+"8	LINE	0
+	## db02.intranet.mydomain.net
+|3,0,8,1,1,0,1596296299,"## db02.intranet.mydomain.net"
+"9	LINE	0
+	## db01.intranet.mydomain.net
+|3,0,9,1,1,0,1596296299,"## db01.intranet.mydomain.net"
+"-	CHAR	0
+	#
+|3,0,36,0,1,0,1596273621,"#"
 
 # File marks:
-'0  3  4  ~/mycode/.gitignore
-|4,48,3,4,1593626631,"~/mycode/.gitignore"
-'1  1  7  ~/mycode/hello.c
-|4,49,1,7,1593626221,"~/mycode/hello.c"
-'2  1  11  ~/mycode/new.java
-|4,50,1,11,1593626139,"~/mycode/new.java"
+'0  1  3  /tmp/inv
+|4,48,1,3,1596342948,"/tmp/inv"
+'1  1  11  /tmp/inv
+|4,49,1,11,1596342913,"/tmp/inv"
+'2  2  10  ~/InstallDocker.yml
+|4,50,2,10,1596304217,"~/InstallDocker.yml"
+'3  4  15  ~/InstallSoftware.yml
+|4,51,4,15,1596299551,"~/InstallSoftware.yml"
+'4  24  3  ~/roles/slavetools/tasks/main.yml
+|4,52,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+'5  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,53,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+'6  11  36  ~/roles/slavetools/tasks/install-dependencies.yml
+|4,54,11,36,1596298007,"~/roles/slavetools/tasks/install-dependencies.yml"
+'7  13  0  ~/roles/slavetools/tasks/install-googlechrome.yml
+|4,55,13,0,1596297931,"~/roles/slavetools/tasks/install-googlechrome.yml"
+'8  5  20  ~/roles/slavetools/tasks/install-git.yml
+|4,56,5,20,1596297841,"~/roles/slavetools/tasks/install-git.yml"
+'9  3  17  ~/roles/slavetools/tasks/install-java.yml
+|4,57,3,17,1596297787,"~/roles/slavetools/tasks/install-java.yml"
 
 # Jumplist (newest first):
--'  3  4  ~/mycode/.gitignore
-|4,39,3,4,1593626631,"~/mycode/.gitignore"
--'  1  0  ~/mycode/.gitignore
-|4,39,1,0,1593626596,"~/mycode/.gitignore"
--'  1  7  ~/mycode/hello.c
-|4,39,1,7,1593626221,"~/mycode/hello.c"
--'  1  7  ~/mycode/hello.c
-|4,39,1,7,1593626221,"~/mycode/hello.c"
--'  1  11  ~/mycode/new.java
-|4,39,1,11,1593626139,"~/mycode/new.java"
--'  1  11  ~/mycode/new.java
-|4,39,1,11,1593626139,"~/mycode/new.java"
--'  1  11  ~/mycode/new.java
-|4,39,1,11,1593626139,"~/mycode/new.java"
--'  1  11  ~/mycode/new.java
-|4,39,1,11,1593626139,"~/mycode/new.java"
+-'  1  3  /tmp/inv
+|4,39,1,3,1596342948,"/tmp/inv"
+-'  1  11  /tmp/inv
+|4,39,1,11,1596342913,"/tmp/inv"
+-'  2  10  ~/InstallDocker.yml
+|4,39,2,10,1596304217,"~/InstallDocker.yml"
+-'  2  10  ~/InstallDocker.yml
+|4,39,2,10,1596304217,"~/InstallDocker.yml"
+-'  2  10  ~/InstallDocker.yml
+|4,39,2,10,1596304217,"~/InstallDocker.yml"
+-'  2  10  ~/InstallDocker.yml
+|4,39,2,10,1596304217,"~/InstallDocker.yml"
+-'  1  0  ~/InstallDocker.yml
+|4,39,1,0,1596304189,"~/InstallDocker.yml"
+-'  1  0  ~/InstallDocker.yml
+|4,39,1,0,1596304189,"~/InstallDocker.yml"
+-'  1  0  ~/InstallDocker.yml
+|4,39,1,0,1596304189,"~/InstallDocker.yml"
+-'  1  0  ~/InstallDocker.yml
+|4,39,1,0,1596304189,"~/InstallDocker.yml"
+-'  4  15  ~/InstallSoftware.yml
+|4,39,4,15,1596299551,"~/InstallSoftware.yml"
+-'  4  15  ~/InstallSoftware.yml
+|4,39,4,15,1596299551,"~/InstallSoftware.yml"
+-'  4  15  ~/InstallSoftware.yml
+|4,39,4,15,1596299551,"~/InstallSoftware.yml"
+-'  4  15  ~/InstallSoftware.yml
+|4,39,4,15,1596299551,"~/InstallSoftware.yml"
+-'  4  15  ~/InstallSoftware.yml
+|4,39,4,15,1596299551,"~/InstallSoftware.yml"
+-'  4  15  ~/InstallSoftware.yml
+|4,39,4,15,1596299551,"~/InstallSoftware.yml"
+-'  4  15  ~/InstallSoftware.yml
+|4,39,4,15,1596299551,"~/InstallSoftware.yml"
+-'  4  15  ~/InstallSoftware.yml
+|4,39,4,15,1596299551,"~/InstallSoftware.yml"
+-'  1  0  ~/InstallSoftware.yml
+|4,39,1,0,1596299492,"~/InstallSoftware.yml"
+-'  1  0  ~/InstallSoftware.yml
+|4,39,1,0,1596299492,"~/InstallSoftware.yml"
+-'  1  0  ~/InstallSoftware.yml
+|4,39,1,0,1596299492,"~/InstallSoftware.yml"
+-'  1  0  ~/InstallSoftware.yml
+|4,39,1,0,1596299492,"~/InstallSoftware.yml"
+-'  1  0  ~/InstallSoftware.yml
+|4,39,1,0,1596299492,"~/InstallSoftware.yml"
+-'  1  0  ~/InstallSoftware.yml
+|4,39,1,0,1596299492,"~/InstallSoftware.yml"
+-'  1  0  ~/InstallSoftware.yml
+|4,39,1,0,1596299492,"~/InstallSoftware.yml"
+-'  1  0  ~/InstallSoftware.yml
+|4,39,1,0,1596299492,"~/InstallSoftware.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  24  3  ~/roles/slavetools/tasks/main.yml
+|4,39,24,3,1596298796,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  1  0  ~/roles/slavetools/tasks/main.yml
+|4,39,1,0,1596298156,"~/roles/slavetools/tasks/main.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  6  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,6,0,1596298093,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  1  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,1,0,1596298080,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  1  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,1,0,1596298080,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  1  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,1,0,1596298080,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  1  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,1,0,1596298080,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  1  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,1,0,1596298080,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  1  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,1,0,1596298080,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  1  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,1,0,1596298080,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  1  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,1,0,1596298080,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  1  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,1,0,1596298080,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
+-'  1  0  ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+|4,39,1,0,1596298080,"~/roles/slavetools/tasks/install-chromiumbrowser.yml"
 
 # History of marks within files (newest to oldest):
+
+> /tmp/inv
+	*	1596342946	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/InstallDocker.yml
+	*	1596304213	0
+	"	2	10
+	^	2	11
+	.	2	10
+	+	23	22
+	+	2	10
+
+> ~/InstallSoftware.yml
+	*	1596299549	0
+	"	4	15
+	^	4	16
+	.	4	15
+	+	4	9
+	+	1	10
+	+	4	15
+
+> ~/roles/slavetools/tasks/main.yml
+	*	1596298792	0
+	"	24	3
+	^	24	4
+	.	24	3
+	+	5	20
+	+	16	41
+	+	4	32
+	+	11	27
+	+	12	27
+	+	13	40
+	+	24	10
+	+	20	3
+	+	21	3
+	+	22	3
+	+	23	3
+	+	24	3
+
+> ~/roles/slavetools/tasks/install-chromiumbrowser.yml
+	*	1596298092	0
+	"	6	0
+	^	6	0
+	.	5	21
+	+	5	21
+
+> ~/roles/slavetools/tasks/install-dependencies.yml
+	*	1596298001	0
+	"	11	36
+	^	11	37
+	.	11	36
+	+	11	36
+
+> ~/roles/slavetools/tasks/install-googlechrome.yml
+	*	1596297930	0
+	"	13	0
+	^	13	0
+	.	12	45
+	+	12	45
+
+> ~/roles/slavetools/tasks/install-git.yml
+	*	1596297840	0
+	"	5	20
+	^	5	21
+	.	6	0
+	+	6	0
+
+> ~/roles/slavetools/tasks/install-java.yml
+	*	1596297785	0
+	"	3	17
+	^	3	18
+	.	4	17
+	+	4	17
+
+> /etc/ansible/hosts
+	*	1596296309	0
+	"	12	0
+	^	11	12
+	.	10	0
+	+	10	4
+	+	11	11
+	+	10	0
+
+> /etc/ansible/ansible.cfg
+	*	1596273623	0
+	"	71	0
+	.	71	0
+	+	71	0
+
+> /etc/default/puppetserver
+	*	1596271413	0
+	"	15	0
+	^	9	28
+	.	9	28
+	+	9	28
+
+> /etc/hosts
+	*	1595754483	0
+	"	10	19
+	^	10	20
+	.	10	19
+	+	10	19
+
+> ~/newrepor/guest1.java
+	*	1593853430	0
+	"	2	0
+	.	4	0
+	+	1	0
+	+	4	0
+
+> ~/newrepor/guest1java
+	*	1593853370	0
+	"	1	0
 
 > ~/mycode/.gitignore
 	*	1593626629	0

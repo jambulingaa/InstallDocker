@@ -1,0 +1,11 @@
+- name: Update apt cache
+  apt: update_cache=yes
+
+- name: Install xvfb
+  apt: pkg=xvfb state=present
+
+- name: Install libxi6
+  apt: pkg=libxi6 state=present
+
+- name: Install libgconf-2-4
+  apt: pkg=libgconf-2-4 state=present
